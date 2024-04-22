@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    password: Sibiharan1234@
+    url: jdbc:mysql://localhost:3306/Sibiharan
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jpa:
+      show-sql:
+      hibernate:
+        ddl-auto:
+      properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
